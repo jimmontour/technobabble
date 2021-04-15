@@ -62,6 +62,7 @@ video {
   align-self: center;
   overflow: hidden;
   display: inline-block;
+  width: 400px;
 }
 
 .main {

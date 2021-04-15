@@ -20,3 +20,4 @@ P2P Video and Chat App with an 80s Synthpunk UI
   -overflow scroll iun chat
   -when video is stopped, have a glitch effect
 - refactor code into modules
+- auto copy link

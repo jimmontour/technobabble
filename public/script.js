@@ -8,6 +8,11 @@ const myPeer = new Peer(undefined, {
 
 let myVideoStream;
 
+const roomInput = document.querySelector('.dummy-input');
+roomInput.value = window.location.href;
+
+
+
 const myVideo = document.createElement('video');
 
 myVideo.muted = true;
@@ -110,6 +115,14 @@ const playStop = () => {
     setStopVideo();
     myVideoStream.getVideoTracks()[0].enabled = true;
   }
+};
+
+// Copy Room Address
+const shareRoom = () => {
+   const roomInput = document.querySelector('.dummy-input');
+   roomInput.value = window.location.href;
+   roomInput.select();
+   document.execCommand("copy");
 };
 
 const setMuteButton = () => {

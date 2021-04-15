@@ -48,5 +48,4 @@ io.on('connection', (socket) => {
   });
 });
 
-// Localhost port is 3030
 server.listen(process.env.PORT || 3030);

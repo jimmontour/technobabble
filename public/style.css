@@ -83,6 +83,8 @@ video {
 
 .main__controls {
   background-color: var(--black);
+  margin: 0 auto;
+  width: 100%;
 }
 
 .main__right {
@@ -92,12 +94,13 @@ video {
 .main__controls {
   color: var(--green);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   z-index: 2;
 }
 
 .main__controls__block {
   display: flex;
+
   padding: 1rem;
 }
 
@@ -202,4 +205,18 @@ canvas {
   top: 0;
   left: 0;
   opacity: 0.1;
+}
+
+.room-input {
+  visibility: hidden;
+}
+
+.dummy-input {
+  background: var(--black);
+  color: var(--green);
+  width: 30rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid var(--green);
 }

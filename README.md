@@ -13,7 +13,7 @@
     <a href="https://github.com/jimmontour/technobabble"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://enigmatic-sierra-46529.herokuapp.com/6a55ee8f-8397-4e8a-9fa7-24df81b40d66?fbclid=IwAR3kTAIioGzOv8-t3fes-oRSza2Df6Gbsu0HWjklyyFZYMEJXMaCDzXG9rw">View Live</a>
+    <a href="https://travel-log.dev/">View Live</a>
     ·
     <a href="https://github.com/jimmontour/technobabble/issues">Report Bug</a>
     ·
